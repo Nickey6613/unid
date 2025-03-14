@@ -1,0 +1,52 @@
+﻿<yml_catalog date="2025-01-21 12:10">
+  <shop>
+    <name>Школа Unid School</name>
+    <company>ООО “Школа Unid School”</company>
+    <url>https://unid-school.ru/</url>
+    <email>unidschool23@gmail.com</email>
+    <picture>https://static.tildacdn.com/tild6363-3636-4634-b438-373264633830/_1.svg</picture>
+    <description>Онлайн школа графического дизайна</description>
+    <currencies>
+      <currency id="RUR" rate="1"/>
+    </currencies>
+    <offers>
+      <offer id="graphic-design">
+        <name>Графический дизайн PRO</name>
+        <url>https://unid-school.ru/graphic-design</url>
+        <categoryId>407</categoryId>
+        <!-- Общая цена курса -->
+        <price>150000</price>
+        <currencyId>RUR</currencyId>
+        <!-- Цена со скидкой -->
+        <param name="Цена по скидке">110900</param>
+        <param name="Дата окончания скидки">14.06.2026</param>
+        <!-- Оплата в рассрочку -->
+        <param name="Оплата в рассрочку" unit="месяц">24</param>
+        <!-- Ежемесячная цена -->
+        <param name="Ежемесячная цена">4620</param>
+        <!-- Сроки курсов -->
+        <param name="Продолжительность" unit="месяц">12</param>
+        <!-- Программа обучения -->
+        <param name="План" order="1" unit="Базовый">
+          <![CDATA[ Освойте востребованную творческую профессию за 12 месяцев и гарантированно получите первый заказ во время обучения. Без опыта в дизайне и навыков художника. С пошаговой поддержкой экспертов ]]>
+        </param>
+        <!-- Формат и методы обучения -->
+        <param name="Формат обучения">Самостоятельно</param>
+        <param name="Формат обучения">С преподавателем</param>
+        <param name="Есть вебинары">true</param>
+        <param name="Есть домашние работы">true</param>
+        <param name="Есть видеоуроки">true</param>
+        <param name="Есть текстовые уроки">true</param>
+        <param name="Есть тренажеры">true</param>
+        <param name="Есть сообщество">true</param>
+        <!-- Параметры курса -->
+        <param name="Сложность">Для новичков</param>
+        <param name="Тип обучения">Курс</param>
+        <param name="Результат обучения">Сертификат</param>
+        <param name="Часы в неделю">8</param>
+        <!-- Описание курса -->
+        <description>Лучший курс про графический дизайн</description>
+      </offer>
+    </offers>
+  </shop>
+</yml_catalog>
